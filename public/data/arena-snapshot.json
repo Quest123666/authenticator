@@ -1,0 +1,170 @@
+{
+  "source": "Arena Agent",
+  "sourceUrl": "https://arena.ai/leaderboard/agent",
+  "metric": "Net Improvement",
+  "updatedAt": "2026-11-01T15:05:39.233Z",
+  "sourcePublishDate": "2026-10-28",
+  "dataset": "lmarena-ai/leaderboard-dataset (agent/latest)",
+  "models": [
+    {
+      "rank": 1,
+      "name": "Claude Opus 5.5 (Max)",
+      "creator": "Anthropic",
+      "score": 20.94,
+      "display": "20.94",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 2,
+      "name": "Gemini 4 Carbon (High)",
+      "creator": "Google",
+      "score": 16.04,
+      "display": "16.04",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 3,
+      "name": "Claude Sonnet 5.5 (Max)",
+      "creator": "Anthropic",
+      "score": 13.84,
+      "display": "13.84",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 4,
+      "name": "Claude Fable 5.1 (Max)",
+      "creator": "Anthropic",
+      "score": 13.35,
+      "display": "13.35",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 5,
+      "name": "GPT-6 Astra (Max)",
+      "creator": "OpenAI",
+      "score": 12.96,
+      "display": "12.96",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 6,
+      "name": "GPT-6.1 Sol (Max)",
+      "creator": "OpenAI",
+      "score": 12.47,
+      "display": "12.47",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 7,
+      "name": "Gemini 4 Argon (High)",
+      "creator": "Google",
+      "score": 10.73,
+      "display": "10.73",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 8,
+      "name": "GPT-6.1 Terra (Max)",
+      "creator": "OpenAI",
+      "score": 10.57,
+      "display": "10.57",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 9,
+      "name": "Muse Wonder Full (Max)",
+      "creator": "Meta",
+      "score": 10.09,
+      "display": "10.09",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 10,
+      "name": "Claude Fable 5 (High)",
+      "creator": "Anthropic",
+      "score": 8.04,
+      "display": "8.04",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 11,
+      "name": "GPT-6 Sol (Max)",
+      "creator": "OpenAI",
+      "score": 7.96,
+      "display": "7.96",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 12,
+      "name": "Claude Opus 5 (Max)",
+      "creator": "Anthropic",
+      "score": 7.57,
+      "display": "7.57",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 13,
+      "name": "Kimi K3.1 Pro (Max)",
+      "creator": "Moonshot AI",
+      "score": 5.96,
+      "display": "5.96",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 14,
+      "name": "GPT-5.6 Sol (xHigh)",
+      "creator": "OpenAI",
+      "score": 4.79,
+      "display": "4.79",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 15,
+      "name": "Muse Wonder (Max)",
+      "creator": "Meta",
+      "score": 3.14,
+      "display": "3.14",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 16,
+      "name": "Claude Sonnet 5 (High)",
+      "creator": "Anthropic",
+      "score": 2.94,
+      "display": "2.94",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 17,
+      "name": "MiMo-V2.6-Pro",
+      "creator": "Xiaomi",
+      "score": 2.77,
+      "display": "2.77",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 18,
+      "name": "DeepSeek-V4.1-Flash-20261017 (Max)",
+      "creator": "DeepSeek",
+      "score": 2.67,
+      "display": "2.67",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 19,
+      "name": "Gemini 3.8 Flash (High)",
+      "creator": "Google",
+      "score": 2.65,
+      "display": "2.65",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 20,
+      "name": "Muse Spark 1.3 (Max)",
+      "creator": "Meta",
+      "score": 2.59,
+      "display": "2.59",
+      "url": "https://arena.ai/leaderboard/agent"
+    }
+  ]
+}

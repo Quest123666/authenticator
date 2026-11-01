@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'; frame-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://datasets-server.huggingface.co https://open.er-api.com https://api.allorigins.win https://api.codetabs.com https://corsproxy.io https://api.cors.lol https://wise.com https://www.xe.com; media-src 'none'; manifest-src 'self'; worker-src 'self'">
+  <meta name="theme-color" content="#07060C" id="themeColorMeta">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Lumen 光栈：离线 TOTP 验证码、AI 模型榜单、Wise/XE 汇率换算。无账号、无数据库，数据请求从浏览器发出。">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Lumen 光栈 — TOTP · AI 榜单 · 汇率</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/icon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/icon-180.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <script src="./assets/boot.js?v=1.3.2"></script>
+  <link rel="stylesheet" href="./assets/styles.css?v=1.3.2">
+</head>
+<body>
+  <div class="scene" aria-hidden="true">
+    <span class="aurora aurora-a"></span>
+    <span class="aurora aurora-b"></span>
+    <span class="aurora aurora-c"></span>
+    <span class="aurora aurora-d"></span>
+    <span class="beam"></span>
+    <span class="grid-lines"></span>
+    <span class="grain"></span>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Lumen 光栈首页">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <defs>
+            <linearGradient id="markGrad" x1="3" y1="2" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#FFF7E6"/>
+              <stop offset=".45" stop-color="#EFD0A0"/>
+              <stop offset="1" stop-color="#BD8743"/>
+            </linearGradient>
+          </defs>
+          <path d="M12 2.6c.75 5.3 3.85 8.4 9.15 9.15-5.3.75-8.4 3.85-9.15 9.15-.75-5.3-3.85-8.4-9.15-9.15 5.3-.75 8.4-3.85 9.15-9.15Z" stroke="url(#markGrad)" stroke-width="1.7" stroke-linejoin="round"/>
+          <circle cx="12" cy="11.75" r="1.55" fill="#fff" fill-opacity=".92"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <b>Lumen</b>
+        <small>光栈 · TOOLS</small>
+      </span>
+    </a>
+
+    <nav class="tab-dock" role="tablist" aria-label="工具切换">
+      <button class="tool-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="tool-totp" data-tool-tab="totp">
+        <span class="tab-ico" data-icon="key"></span>
+        <span class="tab-copy"><b>TOTP</b><small>离线验证码</small></span>
+      </button>
+      <button class="tool-tab" type="button" role="tab" aria-selected="false" aria-controls="tool-ai" data-tool-tab="ai">
+        <span class="tab-ico" data-icon="spark"></span>
+        <span class="tab-copy"><b>AI 榜单</b><small>双源排行</small></span>
+      </button>
+      <button class="tool-tab" type="button" role="tab" aria-selected="false" aria-controls="tool-fx" data-tool-tab="fx">
+        <span class="tab-ico" data-icon="coins"></span>
+        <span class="tab-copy"><b>汇率</b><small>Wise / XE</small></span>
+      </button>
+    </nav>
+
+    <div class="top-actions">
+      <span class="privacy-chip"><span data-icon="databaseOff"></span>无数据库</span>
+      <a class="git-chip" href="https://github.com/Quest123666/authenticator" target="_blank" rel="noopener noreferrer" aria-label="GitHub 仓库">GitHub</a>
+      <div class="theme-switch" role="group" aria-label="主题">
+        <button class="theme-btn" type="button" data-theme-btn="light" aria-label="浅色主题" aria-pressed="false"><span data-icon="sun"></span></button>
+        <button class="theme-btn is-active" type="button" data-theme-btn="dark" aria-label="深色主题" aria-pressed="true"><span data-icon="moon"></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-main">
+        <p class="eyebrow"><span></span>LOCAL-FIRST · 光栈</p>
+        <h1>一束光，<em>三个工具</em>。</h1>
+      </div>
+      <div class="hero-copy">
+        <p class="lead-copy">TOTP 在本地离线生成；AI 榜单与汇率由浏览器直连源站。没有账号，没有数据库，也没有多余的步骤。</p>
+        <div class="trust-list" aria-label="工具箱特性">
+          <span><i data-icon="wifiOff"></i>TOTP 离线</span>
+          <span><i data-icon="globe"></i>浏览器直连</span>
+          <span><i data-icon="shield"></i>刷新即清除</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="tool-totp" class="tool-view is-active" role="tabpanel" aria-label="TOTP 验证码">
+      <div class="tool-head">
+        <div>
+          <p class="tool-kicker">OFFLINE TOTP</p>
+          <h2>即时验证码</h2>
+          <p class="tool-desc">粘贴 Base32 密钥或 otpauth 链接，自动识别算法、位数与周期，立即生成。密钥只留在当前页面内存，刷新即清除。</p>
+        </div>
+        <span class="tool-stamp"><span data-icon="wifiOff"></span>离线可用</span>
+      </div>
+
+      <div class="app-panel glass">
+        <div class="input-pane">
+          <div class="pane-head">
+            <span class="step">01</span>
+            <h3>输入密钥</h3>
+            <span class="auto-chip"><i></i>自动识别</span>
+          </div>
+
+          <label class="field">
+            <span class="field-head">
+              <span>Base32 密钥 / otpauth 链接</span>
+              <span id="inputBadge" class="field-badge" hidden>已识别</span>
+            </span>
+            <textarea id="secretInput" rows="3" placeholder="JBSWY3DPEHPK3PXP&#10;或 otpauth://totp/..." autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false"></textarea>
+          </label>
+          <p id="inputError" class="form-error" role="alert" hidden></p>
+
+          <div class="input-tools">
+            <button id="pasteBtn" class="btn btn-glass" type="button"><span data-icon="clipboard"></span>从剪贴板粘贴</button>
+            <button id="demoBtn" class="btn btn-ghost btn-sm" type="button">填入示例</button>
+            <button id="clearBtn" class="text-btn" type="button">清空</button>
+          </div>
+
+          <p class="hint"><span data-icon="shield"></span>不写入 localStorage，不发送到服务器。粘贴完整链接时会自动读取其中的参数。</p>
+        </div>
+
+        <div class="result-pane">
+          <div class="pane-head">
+            <span class="step">02</span>
+            <h3>验证码</h3>
+            <span id="liveBadge" class="live-badge" hidden><i></i>LIVE</span>
+          </div>
+
+          <div id="resultCard" class="result-card" data-state="empty">
+            <div class="account-row">
+              <div id="accountAvatar" class="avatar">?</div>
+              <div class="account-copy">
+                <div id="accountName" class="account-name">等待密钥</div>
+                <div id="accountMeta" class="account-meta">SHA-1 · 6 位 · 30 秒</div>
+              </div>
+            </div>
+
+            <div class="code-row">
+              <div id="codeDisplay" class="code-display" aria-live="polite">· · ·</div>
+              <div id="timerDial" class="timer-dial">
+                <b id="timerSeconds">--</b>
+                <span>s</span>
+              </div>
+            </div>
+
+            <div class="timer">
+              <div class="timer-track"><i id="timerBar"></i></div>
+              <div class="timer-meta">
+                <span>剩余 <b id="timerSecondsCopy">--</b> 秒</span>
+                <span id="codeHint">输入后自动生成</span>
+              </div>
+            </div>
+
+            <button id="copyBtn" class="btn btn-primary btn-block" type="button" disabled>
+              <span data-icon="copy"></span><span id="copyLabel">复制验证码</span>
+            </button>
+          </div>
+
+          <div id="emptyCopy" class="empty-copy">
+            不必登录，也不会留下账户列表。<br>
+            刷新页面后，刚才输入的密钥立即消失。
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tool-ai" class="tool-view" role="tabpanel" aria-label="AI 模型榜单" hidden>
+      <div class="tool-head">
+        <div>
+          <p class="tool-kicker">AI LEADERBOARD</p>
+          <h2>AI 榜单 · TOP 20</h2>
+          <p class="tool-desc">Artificial Analysis 智能指数与 Arena Agent 净提升，均取官方榜单前二十。请求由浏览器发起，不经过本站服务器。</p>
+        </div>
+        <button id="aiRefreshBtn" class="btn btn-glass btn-sm" type="button"><span data-icon="refresh"></span>刷新榜单</button>
+      </div>
+
+      <div class="source-grid">
+        <article class="source-panel glass">
+          <header class="source-head">
+            <span class="source-mark aa">AA</span>
+            <div class="source-title">
+              <h3>Artificial Analysis</h3>
+              <p>Intelligence Index · 智能指数</p>
+            </div>
+            <span class="top-chip">TOP 20</span>
+            <a class="source-link" href="https://artificialanalysis.ai/zh/models#intelligence" target="_blank" rel="noopener noreferrer">来源 <span data-icon="external"></span></a>
+          </header>
+          <div id="aaList" class="rank-list" aria-live="polite">
+            <div class="rank-loading"><span class="loader-dot"></span>正在读取榜单…</div>
+          </div>
+          <footer id="aaMeta" class="source-foot">等待数据</footer>
+        </article>
+
+        <article class="source-panel glass">
+          <header class="source-head">
+            <span class="source-mark arena">A</span>
+            <div class="source-title">
+              <h3>Arena Agent</h3>
+              <p>Agent · Net Improvement</p>
+            </div>
+            <span class="top-chip">TOP 20</span>
+            <a class="source-link" href="https://arena.ai/leaderboard/agent" target="_blank" rel="noopener noreferrer">来源 <span data-icon="external"></span></a>
+          </header>
+          <div id="arenaList" class="rank-list" aria-live="polite">
+            <div class="rank-loading"><span class="loader-dot"></span>正在读取榜单…</div>
+          </div>
+          <footer id="arenaMeta" class="source-foot">等待数据</footer>
+        </article>
+      </div>
+
+      <p class="data-note"><span data-icon="globe"></span>Artificial Analysis 智能指数与 Arena Agent 净提升均来自官方榜单；AA 使用内置快照，Arena 通过官方 HuggingFace 数据集刷新。容器不可用时继续显示最近快照。</p>
+    </section>
+
+    <section id="tool-fx" class="tool-view" role="tabpanel" aria-label="汇率换算" hidden>
+      <div class="tool-head">
+        <div>
+          <p class="tool-kicker">CURRENCY CONVERTER</p>
+          <h2>汇率换算</h2>
+          <p class="tool-desc">输入金额与币种，比较 Wise、XE 与一个实时参考源。源站跨域受限时显示最近快照；输入内容不会被保存。</p>
+        </div>
+        <span class="tool-stamp"><span data-icon="globe"></span>浏览器请求</span>
+      </div>
+
+      <div class="fx-card glass">
+        <div class="fx-form">
+          <label class="fx-field">
+            <span>金额</span>
+            <input id="fxAmount" type="number" min="0" step="any" inputmode="decimal" value="100" autocomplete="off">
+          </label>
+          <label class="fx-field">
+            <span>从</span>
+            <select id="fxFrom"></select>
+          </label>
+          <button id="fxSwapBtn" class="swap-btn" type="button" aria-label="交换币种"><span data-icon="swap"></span></button>
+          <label class="fx-field">
+            <span>到</span>
+            <select id="fxTo"></select>
+          </label>
+          <button id="fxConvertBtn" class="btn btn-primary fx-submit" type="button"><span data-icon="refresh"></span>换算</button>
+        </div>
+        <p id="fxStatus" class="fx-status" aria-live="polite">输入金额后自动换算</p>
+      </div>
+
+      <div class="fx-results">
+        <article id="fxWise" class="fx-source glass" data-state="idle">
+          <header class="fx-source-head">
+            <span class="source-mark wise">W</span>
+            <div class="source-title">
+              <h3>Wise</h3>
+              <p>中间市场汇率</p>
+            </div>
+            <a class="source-link" href="https://wise.com/zh-cn/currency-converter/" target="_blank" rel="noopener noreferrer">来源 <span data-icon="external"></span></a>
+          </header>
+          <div class="fx-main">
+            <span id="fxWiseAmount" class="fx-amount">—</span>
+            <span id="fxWiseCode" class="fx-code">CNY</span>
+          </div>
+          <p id="fxWiseRate" class="fx-rate">等待换算</p>
+        </article>
+
+        <article id="fxXe" class="fx-source glass" data-state="idle">
+          <header class="fx-source-head">
+            <span class="source-mark xe">X</span>
+            <div class="source-title">
+              <h3>XE</h3>
+              <p>参考中间价</p>
+            </div>
+            <a class="source-link" href="https://www.xe.com/zh-cn/currencyconverter/" target="_blank" rel="noopener noreferrer">来源 <span data-icon="external"></span></a>
+          </header>
+          <div class="fx-main">
+            <span id="fxXeAmount" class="fx-amount">—</span>
+            <span id="fxXeCode" class="fx-code">CNY</span>
+          </div>
+          <p id="fxXeRate" class="fx-rate">等待换算</p>
+        </article>
+
+        <article id="fxRef" class="fx-source glass" data-state="idle">
+          <header class="fx-source-head">
+            <span class="source-mark ref">R</span>
+            <div class="source-title">
+              <h3>实时参考</h3>
+              <p>备用源 · exchangerate-api</p>
+            </div>
+            <a class="source-link" href="https://www.exchangerate-api.com/" target="_blank" rel="noopener noreferrer">来源 <span data-icon="external"></span></a>
+          </header>
+          <div class="fx-main">
+            <span id="fxRefAmount" class="fx-amount">—</span>
+            <span id="fxRefCode" class="fx-code">CNY</span>
+          </div>
+          <p id="fxRefRate" class="fx-rate">等待换算</p>
+        </article>
+      </div>
+
+      <p class="data-note"><span data-icon="globe"></span>Wise / XE 快照由 GitHub Actions 定时刷新并随站点发布；实时参考由 exchangerate-api 直连。汇率仅供参考，实际成交价以源站为准。</p>
+    </section>
+
+    <section class="footnotes" aria-label="使用说明">
+      <div><span class="note-number">01</span><b>TOTP 离线</b><span>密钥只在当前页面内存中计算</span></div>
+      <div><span class="note-number">02</span><b>浏览器请求</b><span>榜单与汇率不经过本站后端</span></div>
+      <div><span class="note-number">03</span><b>无数据库</b><span>没有账户库，没有云端存储</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="footer-brand">Lumen · 光栈</span>
+    <span class="footer-note">无账号 · 无数据库 · TOTP 离线</span>
+    <span id="footerVersion" class="version">v1.3.2</span>
+  </footer>
+
+  <div id="toastHost" class="toast-host" aria-live="polite" aria-atomic="true"></div>
+  <noscript><div class="noscript">需要启用 JavaScript 才能使用这些工具。</div></noscript>
+
+  <script src="./assets/core.js?v=1.3.2" defer></script>
+  <script src="./assets/data.js?v=1.3.2" defer></script>
+  <script src="./assets/app.js?v=1.3.2" defer></script>
+</body>
+</html>

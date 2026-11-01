@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07060C">
+  <meta http-equiv="refresh" content="0; url=./public/">
+  <title>Lumen 光栈 — 正在打开</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07060c;
+      --ink: #f7f5ff;
+      --muted: #b9b3cc;
+      --line: rgba(255, 255, 255, 0.12);
+      --gold: #efd0a0;
+      --violet: #c4b5fd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background:
+        radial-gradient(900px 620px at 84% -12%, rgba(124, 92, 255, 0.32), transparent 64%),
+        radial-gradient(720px 520px at 8% 100%, rgba(239, 208, 160, 0.12), transparent 66%),
+        linear-gradient(180deg, #07060c, #0b0814 55%, #05040a);
+      color: var(--ink);
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    }
+    .card {
+      width: min(420px, 100%);
+      padding: 34px 30px;
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      background: linear-gradient(158deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+      box-shadow: 0 34px 100px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+      text-align: center;
+      backdrop-filter: blur(30px);
+      -webkit-backdrop-filter: blur(30px);
+    }
+    .mark {
+      width: 52px;
+      height: 52px;
+      margin: 0 auto 18px;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 16px;
+      background: radial-gradient(120% 120% at 18% 0%, rgba(196, 181, 253, 0.3), transparent 56%), #161226;
+    }
+    .mark svg { width: 28px; height: 28px; }
+    h1 { margin: 0 0 8px; font-size: 24px; letter-spacing: -0.03em; }
+    p { margin: 0 0 22px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 20px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #6d4aff, #8b5cf6);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 12px 30px rgba(139, 92, 246, 0.3);
+    }
+    a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M12 2.6c.75 5.3 3.85 8.4 9.15 9.15-5.3.75-8.4 3.85-9.15 9.15-.75-5.3-3.85-8.4-9.15-9.15 5.3-.75 8.4-3.85 9.15-9.15Z" stroke="#EFD0A0" stroke-width="1.7" stroke-linejoin="round"/>
+        <circle cx="12" cy="11.75" r="1.55" fill="#fff" fill-opacity=".92"/>
+      </svg>
+    </div>
+    <h1>Lumen 光栈</h1>
+    <p>正在打开工具箱。若没有自动跳转，请点击下面的按钮。</p>
+    <a href="./public/">进入工具</a>
+  </div>
+</body>
+</html>
