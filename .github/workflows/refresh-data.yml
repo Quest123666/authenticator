@@ -1,0 +1,53 @@
+name: Refresh data snapshots
+
+# XE 由 refresh-xe.yml 每小时单独刷新；这里每 6 小时刷新其余来源。
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/refresh-data.mjs'
+      - '.github/workflows/refresh-data.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # XE 有 AWS WAF 的 JS 挑战，必须用真实浏览器访问；
+      # ubuntu-latest 自带 Google Chrome，只需安装 Playwright 驱动。
+      - name: Install browser driver
+        run: npm install --no-save --no-package-lock playwright-core
+
+      - name: Refresh snapshots
+        run: node scripts/refresh-data.mjs --only=aa,arena,openrouter,tiobe,wise
+
+      - name: Commit if changed
+        run: |
+          git config user.name "Quest123666"
+          git config user.email "opencrty123@proton.me"
+          if [ -z "$(git status --porcelain public/data)" ]; then
+            echo "No snapshot changes"
+            exit 0
+          fi
+          git add public/data
+          git commit -m "chore: refresh data snapshots"
+          git push || {
+            git pull --rebase origin main
+            git push
+          }

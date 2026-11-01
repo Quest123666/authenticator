@@ -1,0 +1,168 @@
+{
+  "source": "Artificial Analysis",
+  "sourceUrl": "https://artificialanalysis.ai/zh/models#intelligence",
+  "metric": "Intelligence Index",
+  "updatedAt": "2026-11-28T06:33:40.343Z",
+  "models": [
+    {
+      "rank": 1,
+      "name": "Claude Fable 5.2 (Max, Default Fallback)",
+      "creator": "Anthropic",
+      "score": 64.8,
+      "display": "65",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+    },
+    {
+      "rank": 2,
+      "name": "GPT-6.2 Astra (Max)",
+      "creator": "OpenAI",
+      "score": 62.2,
+      "display": "62",
+      "url": "https://artificialanalysis.ai/models/gpt-6-2-astra"
+    },
+    {
+      "rank": 3,
+      "name": "Gemini 4 Neon (Xhigh)",
+      "creator": "Google",
+      "score": 61.5,
+      "display": "62",
+      "url": "https://artificialanalysis.ai/models/gemini-4-neon"
+    },
+    {
+      "rank": 4,
+      "name": "Gemini 4 Carbon (High)",
+      "creator": "Google",
+      "score": 60.1,
+      "display": "60",
+      "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
+    },
+    {
+      "rank": 5,
+      "name": "Claude Opus 5.5 (Max, Default Fallback)",
+      "creator": "Anthropic",
+      "score": 59.1,
+      "display": "59",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+    },
+    {
+      "rank": 6,
+      "name": "GPT-6.2 Sol (Max)",
+      "creator": "OpenAI",
+      "score": 57.3,
+      "display": "57",
+      "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+    },
+    {
+      "rank": 7,
+      "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
+      "creator": "Anthropic",
+      "score": 54.7,
+      "display": "55",
+      "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
+    },
+    {
+      "rank": 8,
+      "name": "Gemini 4 Hydrogen (Xhigh)",
+      "creator": "Google",
+      "score": 54.1,
+      "display": "54",
+      "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+    },
+    {
+      "rank": 9,
+      "name": "GPT-6.1 Terra (Max)",
+      "creator": "OpenAI",
+      "score": 51.4,
+      "display": "51",
+      "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
+    },
+    {
+      "rank": 10,
+      "name": "Muse Wonder Full (Max)",
+      "creator": "Meta",
+      "score": 49.9,
+      "display": "50",
+      "url": "https://artificialanalysis.ai/models/muse-wonder-full"
+    },
+    {
+      "rank": 11,
+      "name": "Kimi K3.1 Pro",
+      "creator": "Kimi",
+      "score": 46.6,
+      "display": "47",
+      "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro"
+    },
+    {
+      "rank": 12,
+      "name": "Muse Wonder (Max)",
+      "creator": "Meta",
+      "score": 43.7,
+      "display": "44",
+      "url": "https://artificialanalysis.ai/models/muse-wonder"
+    },
+    {
+      "rank": 13,
+      "name": "Qwen4 Max",
+      "creator": "Alibaba",
+      "score": 42.8,
+      "display": "43",
+      "url": "https://artificialanalysis.ai/models/qwen4-max"
+    },
+    {
+      "rank": 14,
+      "name": "Claude Haiku 5.5 (Max)",
+      "creator": "Anthropic",
+      "score": 36.5,
+      "display": "37",
+      "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
+    },
+    {
+      "rank": 15,
+      "name": "Muse Ember (Max)",
+      "creator": "Meta",
+      "score": 36.1,
+      "display": "36",
+      "url": "https://artificialanalysis.ai/models/muse-ember"
+    },
+    {
+      "rank": 16,
+      "name": "Grok 4.7 (Xhigh)",
+      "creator": "SpaceXAI",
+      "score": 35.4,
+      "display": "35",
+      "url": "https://artificialanalysis.ai/models/grok-4-7"
+    },
+    {
+      "rank": 17,
+      "name": "Tencent Hy4",
+      "creator": "Tencent",
+      "score": 34.6,
+      "display": "35",
+      "url": "https://artificialanalysis.ai/models/tencent-hy4"
+    },
+    {
+      "rank": 18,
+      "name": "DeepSeek V4.1 Flash 1017 (Max)",
+      "creator": "DeepSeek",
+      "score": 32.4,
+      "display": "32",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+    },
+    {
+      "rank": 19,
+      "name": "GLM-5.3 (Max)",
+      "creator": "Z AI",
+      "score": 31.6,
+      "display": "32",
+      "url": "https://artificialanalysis.ai/models/glm-5-3"
+    },
+    {
+      "rank": 20,
+      "name": "Inkling 2 Small",
+      "creator": "Thinking Machines",
+      "score": 30.7,
+      "display": "31",
+      "url": "https://artificialanalysis.ai/models/inkling-2-small"
+    }
+  ]
+}

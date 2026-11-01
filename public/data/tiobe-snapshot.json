@@ -1,0 +1,189 @@
+{
+  "source": "TIOBE",
+  "sourceUrl": "https://www.tiobe.com/tiobe-index/",
+  "metric": "TIOBE Index",
+  "month": "2026-11",
+  "updatedAt": "2026-11-28T06:33:41.394Z",
+  "models": [
+    {
+      "rank": 1,
+      "name": "Python",
+      "creator": "去年 #1",
+      "display": "20.86",
+      "score": 20.86,
+      "delta": "-2.51%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 2,
+      "name": "C",
+      "creator": "去年 #2",
+      "display": "11.48",
+      "score": 11.48,
+      "delta": "+1.80%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 3,
+      "name": "Java",
+      "creator": "去年 #4",
+      "display": "8.89",
+      "score": 8.89,
+      "delta": "+0.34%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 4,
+      "name": "C++",
+      "creator": "去年 #3",
+      "display": "8.35",
+      "score": 8.35,
+      "delta": "-0.60%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 5,
+      "name": "C#",
+      "creator": "去年 #5",
+      "display": "3.39",
+      "score": 3.39,
+      "delta": "-4.26%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 6,
+      "name": "JavaScript",
+      "creator": "去年 #6",
+      "display": "2.42",
+      "score": 2.42,
+      "delta": "-1.00%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 7,
+      "name": "R",
+      "creator": "去年 #12",
+      "display": "2.27",
+      "score": 2.27,
+      "delta": "+0.60%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 8,
+      "name": "SQL",
+      "creator": "去年 #10",
+      "display": "1.91",
+      "score": 1.91,
+      "delta": "+0.11%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 9,
+      "name": "Visual Basic",
+      "creator": "去年 #7",
+      "display": "1.88",
+      "score": 1.88,
+      "delta": "-1.43%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 10,
+      "name": "Go",
+      "creator": "去年 #11",
+      "display": "1.69",
+      "score": 1.69,
+      "delta": "-0.03%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 11,
+      "name": "Rust",
+      "creator": "去年 #14",
+      "display": "1.63",
+      "score": 1.63,
+      "delta": "+0.25%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 12,
+      "name": "PHP",
+      "creator": "去年 #16",
+      "display": "1.58",
+      "score": 1.58,
+      "delta": "+0.27%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 13,
+      "name": "Fortran",
+      "creator": "去年 #13",
+      "display": "1.21",
+      "score": 1.21,
+      "delta": "-0.34%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 14,
+      "name": "Scratch",
+      "creator": "去年 #19",
+      "display": "1.15",
+      "score": 1.15,
+      "delta": "+0.13%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 15,
+      "name": "Perl",
+      "creator": "去年 #9",
+      "display": "1.14",
+      "score": 1.14,
+      "delta": "-0.69%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 16,
+      "name": "MATLAB",
+      "creator": "去年 #15",
+      "display": "1.08",
+      "score": 1.08,
+      "delta": "-0.30%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 17,
+      "name": "Assembly language",
+      "creator": "去年 #18",
+      "display": "0.92",
+      "score": 0.92,
+      "delta": "-0.24%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 18,
+      "name": "Swift",
+      "creator": "去年 #21",
+      "display": "0.89",
+      "score": 0.89,
+      "delta": "+0.03%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 19,
+      "name": "Delphi/Object Pascal",
+      "creator": "去年 #8",
+      "display": "0.78",
+      "score": 0.78,
+      "delta": "-1.28%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    },
+    {
+      "rank": 20,
+      "name": "Dart",
+      "creator": "去年 #26",
+      "display": "0.74",
+      "score": 0.74,
+      "delta": "+0.05%",
+      "url": "https://www.tiobe.com/tiobe-index/"
+    }
+  ]
+}

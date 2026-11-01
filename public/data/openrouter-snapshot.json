@@ -1,0 +1,99 @@
+{
+  "source": "OpenRouter",
+  "sourceUrl": "https://openrouter.ai/rankings#leaderboard-table",
+  "metric": "Tokens processed",
+  "period": "This Week",
+  "updatedAt": "2026-11-28T06:33:40.586Z",
+  "models": [
+    {
+      "rank": 1,
+      "name": "DeepSeek V4.1 Flash 1017",
+      "creator": "DeepSeek",
+      "display": "83.1T",
+      "score": 83.1,
+      "delta": "+33%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 2,
+      "name": "Hy4 flash",
+      "creator": "Tencent",
+      "display": "38.7T",
+      "score": 38.7,
+      "delta": "+999%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 3,
+      "name": "DeepSeek V4.1 Flash",
+      "creator": "DeepSeek",
+      "display": "13.9T",
+      "score": 13.9,
+      "delta": "-11%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 4,
+      "name": "GLM 5.3 Flash",
+      "creator": "z-ai",
+      "display": "13.2T",
+      "score": 13.2,
+      "delta": "+22%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 5,
+      "name": "GPT-6 Luna",
+      "creator": "OpenAI",
+      "display": "7.42T",
+      "score": 7.42,
+      "delta": "-15%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 6,
+      "name": "Claude Opus 5.5",
+      "creator": "Anthropic",
+      "display": "6.36T",
+      "score": 6.36,
+      "delta": "-12%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 7,
+      "name": "Kimi K3.1 Pro",
+      "creator": "Moonshot AI",
+      "display": "4.85T",
+      "score": 4.85,
+      "delta": "+37%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 8,
+      "name": "MiniMax M3.1 Flash",
+      "creator": "MiniMax",
+      "display": "4.73T",
+      "score": 4.73,
+      "delta": "+15%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 9,
+      "name": "Nemotron 3 Ultra (free)",
+      "creator": "NVIDIA",
+      "display": "4.27T",
+      "score": 4.27,
+      "delta": "+20%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    },
+    {
+      "rank": 10,
+      "name": "GLM 5.3",
+      "creator": "z-ai",
+      "display": "4.16T",
+      "score": 4.16,
+      "delta": "+23%",
+      "url": "https://openrouter.ai/rankings#leaderboard-table"
+    }
+  ]
+}

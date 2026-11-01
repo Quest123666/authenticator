@@ -1,0 +1,170 @@
+{
+  "source": "Arena Agent",
+  "sourceUrl": "https://arena.ai/leaderboard/agent",
+  "metric": "Net Improvement",
+  "updatedAt": "2026-11-28T06:33:40.452Z",
+  "sourcePublishDate": "2026-11-22",
+  "dataset": "lmarena-ai/leaderboard-dataset (agent/latest)",
+  "models": [
+    {
+      "rank": 1,
+      "name": "Claude Fable 5.2 (Max)",
+      "creator": "Anthropic",
+      "score": 27.44,
+      "display": "27.44",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 2,
+      "name": "Claude Opus 5.5 (Max)",
+      "creator": "Anthropic",
+      "score": 19.12,
+      "display": "19.12",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 3,
+      "name": "Gemini 4 Neon (High)",
+      "creator": "Google",
+      "score": 18.29,
+      "display": "18.29",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 4,
+      "name": "Gemini 4 Carbon (High)",
+      "creator": "Google",
+      "score": 16.13,
+      "display": "16.13",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 5,
+      "name": "Claude Sonnet 5.5 (Max)",
+      "creator": "Anthropic",
+      "score": 15.21,
+      "display": "15.21",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 6,
+      "name": "GPT-6 Astra (Max)",
+      "creator": "OpenAI",
+      "score": 14.64,
+      "display": "14.64",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 7,
+      "name": "GPT-6.2 Astra (Max)",
+      "creator": "OpenAI",
+      "score": 13.91,
+      "display": "13.91",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 8,
+      "name": "Claude Opus 5.5 (High)",
+      "creator": "Anthropic",
+      "score": 13.86,
+      "display": "13.86",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 9,
+      "name": "Gemini 4 Hydrogen (High)",
+      "creator": "Google",
+      "score": 13.59,
+      "display": "13.59",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 10,
+      "name": "Claude Fable 5.1 (Max)",
+      "creator": "Anthropic",
+      "score": 13.15,
+      "display": "13.15",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 11,
+      "name": "GPT-6.2 Sol (Max)",
+      "creator": "OpenAI",
+      "score": 11.28,
+      "display": "11.28",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 12,
+      "name": "GPT-6.1 Sol (Max)",
+      "creator": "OpenAI",
+      "score": 11.02,
+      "display": "11.02",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 13,
+      "name": "GPT-6.1 Terra (Max)",
+      "creator": "OpenAI",
+      "score": 10.45,
+      "display": "10.45",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 14,
+      "name": "Gemini 4 Argon (High)",
+      "creator": "Google",
+      "score": 10.25,
+      "display": "10.25",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 15,
+      "name": "GPT-6.1 Sol (Medium)",
+      "creator": "OpenAI",
+      "score": 8.21,
+      "display": "8.21",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 16,
+      "name": "Muse Wonder Full (Max)",
+      "creator": "Meta",
+      "score": 8.04,
+      "display": "8.04",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 17,
+      "name": "Claude Sonnet 5.5 (High)",
+      "creator": "Anthropic",
+      "score": 7.87,
+      "display": "7.87",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 18,
+      "name": "Qwen4-Max (xHigh)",
+      "creator": "Alibaba",
+      "score": 7.3,
+      "display": "7.30",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 19,
+      "name": "GPT-6 Sol (Max)",
+      "creator": "OpenAI",
+      "score": 6.46,
+      "display": "6.46",
+      "url": "https://arena.ai/leaderboard/agent"
+    },
+    {
+      "rank": 20,
+      "name": "Claude Opus 5 (Max)",
+      "creator": "Anthropic",
+      "score": 6.17,
+      "display": "6.17",
+      "url": "https://arena.ai/leaderboard/agent"
+    }
+  ]
+}
