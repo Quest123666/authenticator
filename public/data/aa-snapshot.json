@@ -2,7 +2,7 @@
   "source": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/zh/models#intelligence",
   "metric": "Intelligence Index",
-  "updatedAt": "2026-11-04T23:16:13.076Z",
+  "updatedAt": "2026-11-05T05:26:06.259Z",
   "models": [
     {
       "rank": 1,
@@ -102,6 +102,14 @@
     },
     {
       "rank": 13,
+      "name": "Tencent Hy4",
+      "creator": "Tencent",
+      "score": 34.6,
+      "display": "35",
+      "url": "https://artificialanalysis.ai/models/tencent-hy4"
+    },
+    {
+      "rank": 14,
       "name": "Qwen3.8 Max (0902)",
       "creator": "Alibaba",
       "score": 33.7,
@@ -109,7 +117,7 @@
       "url": "https://artificialanalysis.ai/models/qwen3-8-max"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "DeepSeek V4.1 Flash 1017 (Max)",
       "creator": "DeepSeek",
       "score": 32.6,
@@ -117,7 +125,7 @@
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "GLM-5.3 (Max)",
       "creator": "Z AI",
       "score": 31.7,
@@ -125,7 +133,7 @@
       "url": "https://artificialanalysis.ai/models/glm-5-3"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "Gemini 3.8 Flash (High)",
       "creator": "Google",
       "score": 30.8,
@@ -133,7 +141,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "MiMo-V2.6-Pro",
       "creator": "Xiaomi",
       "score": 29.9,
@@ -141,7 +149,7 @@
       "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "Ling 3.1 Flash 1019",
       "creator": "InclusionAI",
       "score": 29.6,
@@ -149,20 +157,12 @@
       "url": "https://artificialanalysis.ai/models/ling-3-1-flash-1019"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "MiniMax-M3.1-Flash",
       "creator": "MiniMax",
       "score": 29.1,
       "display": "29",
       "url": "https://artificialanalysis.ai/models/minimax-m3-1-flash"
-    },
-    {
-      "rank": 20,
-      "name": "Step 5 Preview",
-      "creator": "StepFun",
-      "score": 28.5,
-      "display": "29",
-      "url": "https://artificialanalysis.ai/models/step-5"
     }
   ]
 }
