@@ -2,7 +2,7 @@
   "source": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/zh/models#intelligence",
   "metric": "Intelligence Index",
-  "updatedAt": "2026-11-05T23:19:45.522Z",
+  "updatedAt": "2026-11-06T05:24:33.667Z",
   "models": [
     {
       "rank": 1,
@@ -142,6 +142,14 @@
     },
     {
       "rank": 18,
+      "name": "Inkling 2 Small",
+      "creator": "Thinking Machines",
+      "score": 30.6,
+      "display": "31",
+      "url": "https://artificialanalysis.ai/models/inkling-2-small"
+    },
+    {
+      "rank": 19,
       "name": "MiMo-V2.6-Pro",
       "creator": "Xiaomi",
       "score": 29.9,
@@ -149,20 +157,12 @@
       "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "Ling 3.1 Flash 1019",
       "creator": "InclusionAI",
       "score": 29.6,
       "display": "30",
       "url": "https://artificialanalysis.ai/models/ling-3-1-flash-1019"
-    },
-    {
-      "rank": 20,
-      "name": "MiniMax-M3.1-Flash",
-      "creator": "MiniMax",
-      "score": 29.1,
-      "display": "29",
-      "url": "https://artificialanalysis.ai/models/minimax-m3-1-flash"
     }
   ]
 }
