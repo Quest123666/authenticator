@@ -2,10 +2,18 @@
   "source": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/zh/models#intelligence",
   "metric": "Intelligence Index",
-  "updatedAt": "2026-11-09T15:22:50.560Z",
+  "updatedAt": "2026-11-10T01:13:50.749Z",
   "models": [
     {
       "rank": 1,
+      "name": "Claude Fable 5.2 (Max, Default Fallback)",
+      "creator": "Anthropic",
+      "score": 64.6,
+      "display": "65",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+    },
+    {
+      "rank": 2,
       "name": "Gemini 4 Carbon (High)",
       "creator": "Google",
       "score": 60,
@@ -13,7 +21,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "Claude Opus 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
       "score": 59.1,
@@ -21,7 +29,7 @@
       "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "GPT-6 Astra (Max)",
       "creator": "OpenAI",
       "score": 56.9,
@@ -29,7 +37,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-astra"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "GPT-6.1 Sol (Max)",
       "creator": "OpenAI",
       "score": 54.6,
@@ -37,7 +45,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-1-sol"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "Claude Sonnet 5.5 (Max, Default Fallback)",
       "creator": "Anthropic",
       "score": 54.5,
@@ -45,7 +53,7 @@
       "url": "https://artificialanalysis.ai/models/claude-sonnet-5-5"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "GPT-6.1 Terra (Max)",
       "creator": "OpenAI",
       "score": 51.3,
@@ -53,20 +61,12 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Muse Wonder Full (Max)",
       "creator": "Meta",
       "score": 50.1,
       "display": "50",
       "url": "https://artificialanalysis.ai/models/muse-wonder-full"
-    },
-    {
-      "rank": 8,
-      "name": "Claude Fable 5.1 (Max, Default Fallback)",
-      "creator": "Anthropic",
-      "score": 49.2,
-      "display": "49",
-      "url": "https://artificialanalysis.ai/models/claude-fable-5-1"
     },
     {
       "rank": 9,
@@ -94,6 +94,14 @@
     },
     {
       "rank": 12,
+      "name": "Muse Ember (Max)",
+      "creator": "Meta",
+      "score": 36,
+      "display": "36",
+      "url": "https://artificialanalysis.ai/models/muse-ember"
+    },
+    {
+      "rank": 13,
       "name": "Grok 4.7 (Xhigh)",
       "creator": "SpaceXAI",
       "score": 35.5,
@@ -101,7 +109,7 @@
       "url": "https://artificialanalysis.ai/models/grok-4-7"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Tencent Hy4",
       "creator": "Tencent",
       "score": 34.6,
@@ -109,7 +117,7 @@
       "url": "https://artificialanalysis.ai/models/tencent-hy4"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "Qwen3.8 Max (0902)",
       "creator": "Alibaba",
       "score": 33.7,
@@ -117,7 +125,7 @@
       "url": "https://artificialanalysis.ai/models/qwen3-8-max"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "DeepSeek V4.1 Flash 1017 (Max)",
       "creator": "DeepSeek",
       "score": 32.6,
@@ -125,7 +133,7 @@
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "GLM-5.3 (Max)",
       "creator": "Z AI",
       "score": 31.7,
@@ -133,7 +141,7 @@
       "url": "https://artificialanalysis.ai/models/glm-5-3"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "Gemini 3.8 Flash (High)",
       "creator": "Google",
       "score": 30.8,
@@ -141,7 +149,7 @@
       "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "Inkling 2 Small",
       "creator": "Thinking Machines",
       "score": 30.6,
@@ -149,20 +157,12 @@
       "url": "https://artificialanalysis.ai/models/inkling-2-small"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "MiMo-V2.6-Pro",
       "creator": "Xiaomi",
       "score": 29.9,
       "display": "30",
       "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro"
-    },
-    {
-      "rank": 20,
-      "name": "Ling 3.1 Flash 1019",
-      "creator": "InclusionAI",
-      "score": 29.6,
-      "display": "30",
-      "url": "https://artificialanalysis.ai/models/ling-3-1-flash-1019"
     }
   ]
 }
