@@ -2,7 +2,7 @@
   "source": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/zh/models#intelligence",
   "metric": "Intelligence Index",
-  "updatedAt": "2026-11-12T14:43:10.052Z",
+  "updatedAt": "2026-11-12T23:15:28.718Z",
   "models": [
     {
       "rank": 1,
@@ -54,6 +54,14 @@
     },
     {
       "rank": 7,
+      "name": "Gemini 4 Hydrogen (Xhigh)",
+      "creator": "Google",
+      "score": 53.9,
+      "display": "54",
+      "url": "https://artificialanalysis.ai/models/gemini-4-hydrogen"
+    },
+    {
+      "rank": 8,
       "name": "GPT-6.1 Terra (Max)",
       "creator": "OpenAI",
       "score": 51.3,
@@ -61,7 +69,7 @@
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "Muse Wonder Full (Max)",
       "creator": "Meta",
       "score": 50.1,
@@ -69,7 +77,7 @@
       "url": "https://artificialanalysis.ai/models/muse-wonder-full"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "Kimi K3.1 Pro",
       "creator": "Kimi",
       "score": 46.5,
@@ -77,7 +85,7 @@
       "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "Muse Wonder (Max)",
       "creator": "Meta",
       "score": 43.6,
@@ -85,7 +93,7 @@
       "url": "https://artificialanalysis.ai/models/muse-wonder"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Claude Haiku 5.5 (Max)",
       "creator": "Anthropic",
       "score": 36.5,
@@ -93,7 +101,7 @@
       "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Muse Ember (Max)",
       "creator": "Meta",
       "score": 36,
@@ -101,7 +109,7 @@
       "url": "https://artificialanalysis.ai/models/muse-ember"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Grok 4.7 (Xhigh)",
       "creator": "SpaceXAI",
       "score": 35.5,
@@ -109,7 +117,7 @@
       "url": "https://artificialanalysis.ai/models/grok-4-7"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "Tencent Hy4",
       "creator": "Tencent",
       "score": 34.6,
@@ -117,7 +125,7 @@
       "url": "https://artificialanalysis.ai/models/tencent-hy4"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "Qwen3.8 Max (0902)",
       "creator": "Alibaba",
       "score": 33.7,
@@ -125,7 +133,7 @@
       "url": "https://artificialanalysis.ai/models/qwen3-8-max"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "DeepSeek V4.1 Flash 1017 (Max)",
       "creator": "DeepSeek",
       "score": 32.6,
@@ -133,20 +141,12 @@
       "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "GLM-5.3 (Max)",
       "creator": "Z AI",
       "score": 31.7,
       "display": "32",
       "url": "https://artificialanalysis.ai/models/glm-5-3"
-    },
-    {
-      "rank": 18,
-      "name": "Gemini 3.8 Flash (High)",
-      "creator": "Google",
-      "score": 30.8,
-      "display": "31",
-      "url": "https://artificialanalysis.ai/models/gemini-3-8-flash"
     },
     {
       "rank": 19,
