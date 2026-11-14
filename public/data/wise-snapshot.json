@@ -2,7 +2,7 @@
   "source": "Wise",
   "sourceUrl": "https://wise.com/zh-cn/currency-converter/",
   "base": "USD",
-  "updatedAt": "2026-11-13T23:17:45.444Z",
+  "updatedAt": "2026-11-14T05:12:08.176Z",
   "note": "USD 基准快照；其他币种通过交叉汇率换算",
   "rates": {
     "USD": 1,
