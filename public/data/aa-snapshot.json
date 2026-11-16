@@ -2,7 +2,7 @@
   "source": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/zh/models#intelligence",
   "metric": "Intelligence Index",
-  "updatedAt": "2026-11-15T22:31:18.489Z",
+  "updatedAt": "2026-11-16T05:01:49.055Z",
   "models": [
     {
       "rank": 1,
@@ -94,6 +94,14 @@
     },
     {
       "rank": 12,
+      "name": "Qwen4 Max",
+      "creator": "Alibaba",
+      "score": 42.9,
+      "display": "43",
+      "url": "https://artificialanalysis.ai/models/qwen4-max"
+    },
+    {
+      "rank": 13,
       "name": "Claude Haiku 5.5 (Max)",
       "creator": "Anthropic",
       "score": 36.5,
@@ -101,7 +109,7 @@
       "url": "https://artificialanalysis.ai/models/claude-haiku-5-5"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Muse Ember (Max)",
       "creator": "Meta",
       "score": 36,
@@ -109,7 +117,7 @@
       "url": "https://artificialanalysis.ai/models/muse-ember"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "Grok 4.7 (Xhigh)",
       "creator": "SpaceXAI",
       "score": 35.5,
@@ -117,20 +125,12 @@
       "url": "https://artificialanalysis.ai/models/grok-4-7"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "Tencent Hy4",
       "creator": "Tencent",
       "score": 34.6,
       "display": "35",
       "url": "https://artificialanalysis.ai/models/tencent-hy4"
-    },
-    {
-      "rank": 16,
-      "name": "Qwen3.8 Max (0902)",
-      "creator": "Alibaba",
-      "score": 33.7,
-      "display": "34",
-      "url": "https://artificialanalysis.ai/models/qwen3-8-max"
     },
     {
       "rank": 17,
