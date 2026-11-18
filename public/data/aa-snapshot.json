@@ -2,7 +2,7 @@
   "source": "Artificial Analysis",
   "sourceUrl": "https://artificialanalysis.ai/zh/models#intelligence",
   "metric": "Intelligence Index",
-  "updatedAt": "2026-11-18T15:12:21.370Z",
+  "updatedAt": "2026-11-18T23:56:28.487Z",
   "models": [
     {
       "rank": 1,
@@ -22,11 +22,11 @@
     },
     {
       "rank": 3,
-      "name": "Gemini 4 Carbon (High)",
+      "name": "Gemini 4 Neon (Xhigh)",
       "creator": "Google",
-      "score": 60,
-      "display": "60",
-      "url": "https://artificialanalysis.ai/models/gemini-4-carbon"
+      "score": 61.4,
+      "display": "61",
+      "url": "https://artificialanalysis.ai/models/gemini-4-neon"
     },
     {
       "rank": 4,
