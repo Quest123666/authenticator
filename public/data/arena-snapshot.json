@@ -2,7 +2,7 @@
   "source": "Arena Agent",
   "sourceUrl": "https://arena.ai/leaderboard/agent",
   "metric": "Net Improvement",
-  "updatedAt": "2026-11-19T20:00:26.098Z",
+  "updatedAt": "2026-11-20T15:06:35.310Z",
   "sourcePublishDate": "2026-11-18",
   "dataset": "lmarena-ai/leaderboard-dataset (agent/latest)",
   "models": [
